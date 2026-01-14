@@ -4,7 +4,7 @@ const logos = [
   '/logos/sdg.webp',
   '/logos/gu.png',
   '/logos/icst.png',
-  '/logos/iic.jpg',
+  '/logos/springer.png',
 ];
 
 export default function LogoCarousel() {

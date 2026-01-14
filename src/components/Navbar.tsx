@@ -22,7 +22,7 @@ const Navbar = () => {
    
     {
       name: "Schedule",
-      disabled: true,
+      disabled: false,
       dropdown: [
         { name: "Presentation Schedule", path: "/schedule/presentation" },
         { name: "Keynote Schedule", path: "/schedule/keynote" }
@@ -48,6 +48,11 @@ const Navbar = () => {
               src="/logos/icst.png"
               alt="ISCT 2026"
               className="h-8 w-auto max-w-[70px] sm:max-w-[100px] object-contain"
+            />
+            <img
+              src="/logos/springer.png"
+              alt="Springer"
+              className="h-8 w-auto max-w-[80px] sm:max-w-[100px] object-contain"
             />
           </div>
 

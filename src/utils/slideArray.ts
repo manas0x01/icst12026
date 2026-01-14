@@ -6,6 +6,12 @@ export const cards = [
     "imgSrc": "/ImportantPersons/suneelSir.png"
   },
   {
+    "name": "Prof. (Dr.) Sunder Ramasamy",
+    "position": "Professor",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/sunder.png"
+  },
+  {
     "name": "Dr. Dhruv Galgotia",
     "position": "CEO",
     "organization": "CEO, Galgotias University, Greater Noida, India",

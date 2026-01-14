@@ -154,27 +154,16 @@ export default function TeamPage() {
       "Dr. Dhruv Galgotia",
       "Ms. Aradhana Galgotia",
       "Dr. Ankush Mittal",
-      "Prof. (Dr.) S.N.Singh"
     ],
     "Conference General Chair": [
       "Prof. (Dr.) Avadhesh Kumar",
-      "Prof. (Dr.) Yogesh S. Chauhan",
-      "Dr. Arnold Pears"
     ],
     "Conference Chair": [
-      "Prof. (Dr.) Aanjey M. Tripathi",
-      "Prof. (Dr.) Kuldeep S. Kaswan"
-    ],
-    "Conference Organizing Chair": [
+      "Prof. (Dr.) Gaurav Agarwal",
       "Prof. (Dr.) Harish Kumar GR",
       "Prof. (Dr.) Abdul Aleem",
-      "Prof. (Dr.) Gaurav Agarwal",
-      "Prof. Manish Kumar",
-      "Prof. Arpesh Singh"
     ],
-    "Conference Co-Organizing Chair": [
-      "Prof. (Dr.) Sunil Bharti"
-    ],
+    
     "Technical Program Committee Chair": [
       "Prof. (Dr.) Vineeta Khemchandani",
       "Prof. (Dr.) Sudhir Kr. Singh",
@@ -182,7 +171,7 @@ export default function TeamPage() {
       "Prof. (Dr.) Sonia Setia"
     ],
     "Publication Chair": [
-      "Prof. (Dr.) Shrddha Sagar"
+      "Prof. (Dr.) Sunder Ramasamy"
     ],
     "Publicity Chair": [
       "Prof. (Dr.) Meenakshi Sharma",

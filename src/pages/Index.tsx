@@ -136,100 +136,149 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">Conference Tracks</h2>
           <p className="text-center text-lg text-gray-600 mb-12">
-            We welcome submissions in the following areas.
+            The book is organized thematically into major research areas aligned with the conference tracks. Each part begins with an editorial introduction summarizing key advances in the theme.
           </p>
-          <div className="grid md:grid-cols-3 gap-8">
-            {/* Track 1: Computing */}
-            <Card className="h-full hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border-t-4 border-slate-400">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Track I: AI & ML */}
+            <Card className="h-full hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border-t-4 border-blue-500">
               <CardHeader>
-                <CardTitle className="text-slate-800">Track 1: Computing</CardTitle>
+                <CardTitle className="text-blue-700">I: Artificial Intelligence & Machine Learning</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-600 text-sm">
-                  <li>• Big Data, Cloud Computing, and Quantum Computing</li>
-                  <li>• AI, AIoT, IIoT, Deep Learning, and Machine Learning</li>
-                  <li>• Cyber Security and Humanitarian Technologies</li>
-                  <li>• Blockchain Applications</li>
-                  <li>• AR, VR, and Metaverse</li>
-                  <li>• Human-Computer Interface (HCI)</li>
-                  <li>• Robotics, UAV, and Unmanned Vehicle Technologies</li>
-                  <li>• Smart Manufacturing and Industry 5.0</li>
-                  <li>• Healthcare Applications</li>
-                  <li>• Cyber Physical Systems</li>
-                  <li>• Software Engineering and Agile Development</li>
-                  <li>• Multimedia and Web Services Agents</li>
-                  <li>• Knowledge-based Systems</li>
-                  <li>• Pervasive Computing and Ambient Intelligence</li>
-                  <li>• Bioinformatics</li>
-                  <li>• Heuristic and AI Planning Strategies and Tools</li>
-                  <li>• Computational Theories of Learning</li>
-                  <li>• Recent Trends and Developments</li>
+                  <li>• Deep Learning Models and Architectures</li>
+                  <li>• Reinforcement Learning Approaches</li>
+                  <li>• Explainable AI and Ethical AI</li>
+                  <li>• Optimization Algorithms & Evolutionary Computing</li>
+                  <li>• AI for Decision Support Systems</li>
                 </ul>
               </CardContent>
             </Card>
 
-            {/* Track 2: Power */}
-            <Card className="h-full hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border-t-4 border-rose-500">
+            {/* Track II: Data Science */}
+            <Card className="h-full hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border-t-4 border-green-500">
               <CardHeader>
-                <CardTitle className="text-rose-600">Track 2: Power</CardTitle>
+                <CardTitle className="text-green-700">II: Data Science, Big Data & Analytics</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-600 text-sm">
-                  <li>• Renewable Energy Technologies Including Hydrogen</li>
-                  <li>• Renewable Energy Technologies (e.g., Solar, Wind, Hydro, Biomass)</li>
-                  <li>• Integration of Renewable Energy Sources into the Grid</li>
-                  <li>• Energy Storage Systems (e.g., Batteries, Supercapacitors, Flywheels)</li>
-                  <li>• Energy Efficiency and Conservation Strategies</li>
-                  <li>• Demand Response and Load Management</li>
-                  <li>• Modern Power Electronics, Drives and Control, Electric Vehicles</li>
-                  <li>• Electric Vehicles and Charging Infrastructure</li>
-                  <li>• Power Semiconductor Devices and Applications</li>
-                  <li>• Smart Grid Technologies and Power System Management</li>
-                  <li>• Power System Modeling and Simulation</li>
-                  <li>• Electric Power Generation and Distribution</li>
-                  <li>• Power System Optimization and Smart Metering</li>
-                  <li>• Distributed Generation and Microgrids</li>
-                  <li>• High Voltage Engineering and Insulation Systems</li>
-                  <li>• Power Quality and Reliability</li>
-                  <li>• Advanced Power System Protection and Control</li>
-                  <li>• Power System Management Technologies</li>
-                  <li>• Power System Cybersecurity</li>
-                  <li>• Artificial Intelligence for Power Systems and Smart Grid</li>
-                  <li>• Smart Cities & Technologies for Sustainable Development</li>
+                  <li>• Data Mining Techniques</li>
+                  <li>• Predictive and Prescriptive Analytics</li>
+                  <li>• Big Data Frameworks and Distributed Storage</li>
+                  <li>• Data Visualization and Interpretation</li>
+                  <li>• Applications in Healthcare, Finance, Education</li>
                 </ul>
               </CardContent>
             </Card>
 
-            {/* Track 3: Communication */}
-            <Card className="h-full hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border-t-4 border-slate-400">
+            {/* Track III: Cybersecurity */}
+            <Card className="h-full hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border-t-4 border-red-500">
               <CardHeader>
-                <CardTitle className="text-slate-700">Track 3: Communication</CardTitle>
+                <CardTitle className="text-red-700">III: Cybersecurity, Privacy & Digital Forensics</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-600 text-sm">
-                  <li>• Antennas and Propagation</li>
-                  <li>• Radio Frequency and Microwave Engineering</li>
-                  <li>• Optical Communication and Fiber Optics</li>
-                  <li>• Satellite Communication Systems</li>
-                  <li>• Wireless/Radio Access Technologies</li>
-                  <li>• 5G Applications, Emerging 6G Technologies</li>
-                  <li>• Mobile Communication and Network Architecture</li>
-                  <li>• Communication Networks and Protocols</li>
-                  <li>• Ad Hoc and Sensor Networks</li>
-                  <li>• Wireless Sensor Networks</li>
-                  <li>• Machine-to-Machine (M2M) Communication</li>
-                  <li>• Multi-Access Edge Computing (MEC) and Cloud RAN</li>
-                  <li>• Signal Processing for Communications</li>
-                  <li>• Data Transmission and Coding Techniques</li>
-                  <li>• Internet of Things (IoT)</li>
-                  <li>• IoT Hardware Security</li>
-                  <li>• Healthcare and Wireless Sensor Networks</li>
-                  <li>• Network Security and Privacy</li>
-                  <li>• Communication System Design and Optimization</li>
-                  <li>• Communication in Smart Cities and Smart Grids</li>
-                  <li>• Ubiquitous Computing and Communication</li>
-                  <li>• Interference Management and Spectrum Sharing</li>
-                  <li>• Communication for Autonomous Systems and Vehicles</li>
+                  <li>• Network and Application Security</li>
+                  <li>• Cryptography and Secure Protocols</li>
+                  <li>• Cyber Threat Modelling & Intrusion Detection</li>
+                  <li>• Blockchain and Distributed Ledger Security</li>
+                  <li>• Privacy-Preserving Computation</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Track IV: Cloud & Edge Computing */}
+            <Card className="h-full hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border-t-4 border-purple-500">
+              <CardHeader>
+                <CardTitle className="text-purple-700">IV: Cloud Computing, Edge Computing & Distributed Systems</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2 text-gray-600 text-sm">
+                  <li>• Cloud Service Models and Virtualization</li>
+                  <li>• Edge/Fog Architectures and Real-Time Analytics</li>
+                  <li>• Load Balancing & Fault-Tolerant Systems</li>
+                  <li>• Resource Optimization in Distributed Environments</li>
+                  <li>• Serverless Computing</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Track V: IoT & Smart Systems */}
+            <Card className="h-full hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border-t-4 border-teal-500">
+              <CardHeader>
+                <CardTitle className="text-teal-700">V: Internet of Things (IoT) & Smart Systems</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2 text-gray-600 text-sm">
+                  <li>• Sensor Networks and Embedded Systems</li>
+                  <li>• Smart Homes, Smart Cities, Smart Grids</li>
+                  <li>• IoT Security & Energy-Efficient IoT Systems</li>
+                  <li>• Industrial IoT and Cyber-Physical Systems</li>
+                  <li>• Intelligent Automation</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Track VI: Networks & Communication */}
+            <Card className="h-full hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border-t-4 border-orange-500">
+              <CardHeader>
+                <CardTitle className="text-orange-700">VI: Computer Networks, Wireless Communication & 5G/6G</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2 text-gray-600 text-sm">
+                  <li>• Network Architectures & Protocols</li>
+                  <li>• SDN, NFV, and Network Virtualization</li>
+                  <li>• 5G/6G Wireless Technologies</li>
+                  <li>• Vehicular and Ad-Hoc Networks</li>
+                  <li>• Network Performance Analysis</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Track VII: Software Engineering & HCI */}
+            <Card className="h-full hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border-t-4 border-pink-500">
+              <CardHeader>
+                <CardTitle className="text-pink-700">VII: Software Engineering, DevOps & Human–Computer Interaction</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2 text-gray-600 text-sm">
+                  <li>• Software Design & Architecture</li>
+                  <li>• Agile Development, Testing & DevOps Practices</li>
+                  <li>• Requirements Engineering & Model-Driven Development</li>
+                  <li>• UI/UX Design, Usability & Accessibility</li>
+                  <li>• Empirical Studies and Software Metrics</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Track VIII: HPC & Quantum */}
+            <Card className="h-full hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border-t-4 border-indigo-500">
+              <CardHeader>
+                <CardTitle className="text-indigo-700">VIII: High-Performance Computing, Algorithms & Quantum Computing</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2 text-gray-600 text-sm">
+                  <li>• Parallel and Distributed Algorithms</li>
+                  <li>• GPU/TPU Computing</li>
+                  <li>• HPC Applications and Optimization</li>
+                  <li>• Quantum Algorithms and Quantum Machine Learning</li>
+                  <li>• Computational Complexity Studies</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Track IX: Emerging Technologies */}
+            <Card className="h-full hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border-t-4 border-amber-500">
+              <CardHeader>
+                <CardTitle className="text-amber-700">IX: Emerging Technologies & Interdisciplinary Applications</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2 text-gray-600 text-sm">
+                  <li>• Robotics & Autonomous Systems</li>
+                  <li>• AR/VR/MR Applications</li>
+                  <li>• Bioinformatics & Computational Biology</li>
+                  <li>• Green Computing and Sustainable Technologies</li>
+                  <li>• AI/ML Applications in Healthcare, Agriculture & Industry</li>
                 </ul>
               </CardContent>
             </Card>
@@ -290,6 +339,25 @@ const Index = () => {
         </div>
       </section>
 
+
+      {/* Publication Partner Section */}
+      <section className="py-12 bg-gradient-to-br from-slate-50 to-gray-100">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-4 text-gray-800">Publication Partner</h2>
+          <p className="text-center text-lg text-gray-600 mb-8">
+            All accepted papers will be published in Springer Book Series
+          </p>
+          <div className="flex justify-center items-center">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
+              <img
+                src="/logos/springer.png"
+                alt="Springer - Publication Partner"
+                className="h-20 md:h-24 object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
       <div>
         <LogoCarousel />
