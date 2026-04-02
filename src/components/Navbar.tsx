@@ -13,8 +13,9 @@ const Navbar = () => {
     { name: "Committee", path: "/committee" },
     {
       name: "Keynote Sessions",
-      disabled: true,
+      disabled: false,
       dropdown: [
+        { name: "Overview", path: "/keynote-sessions" },
         { name: "Message from Chairman AICTE", path: "/message-aicte" },
         { name: "Speakers", path: "/speakers" }
       ]

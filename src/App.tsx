@@ -13,6 +13,7 @@ import Speakers from "./pages/Speakers";
 import Conferences from "./pages/Conferences";
 import NotFound from "./pages/NotFound";
 import MessageAICTE from "./pages/MessageAICTE";
+import KeynoteSessions from "./pages/KeynoteSessions";
 import PresentationSchedule from "./pages/Schedule/Presentation";
 import KeynoteSchedule from "./pages/Schedule/Keynote";
 import BestPaperAward from "./pages/Awards/BestPaper";
@@ -39,6 +40,7 @@ const App = () => (
           <Route path="/conferences" element={<Conferences />} />
 
           <Route path="/message-aicte" element={<MessageAICTE />} />
+          <Route path="/keynote-sessions" element={<KeynoteSessions />} />
           <Route path="/schedule/presentation" element={<PresentationSchedule />} />
           <Route path="/schedule/keynote" element={<KeynoteSchedule />} />
           <Route path="/awards/best-paper" element={<BestPaperAward />} />

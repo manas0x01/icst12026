@@ -171,7 +171,9 @@ export default function TeamPage() {
       "Prof. (Dr.) Sonia Setia"
     ],
     "Publication Chair": [
-      "Prof. (Dr.) Sunder Ramasamy"
+      "Prof. (Dr.) Sunder Ramasamy",
+      "Prof. Drs. Dafik, M.Sc., Ph.D",
+      "Praveen Kumar Gupta"
     ],
     "Publicity Chair": [
       "Prof. (Dr.) Meenakshi Sharma",

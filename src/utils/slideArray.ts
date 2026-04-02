@@ -12,6 +12,18 @@ export const cards = [
     "imgSrc": "/ImportantPersons/sunder.png"
   },
   {
+    "name": "Prof. Drs. Dafik, M.Sc., Ph.D",
+    "position": "Professor",
+    "organization": "University of Jember, Indonesia",
+    "imgSrc": null
+  },
+  {
+    "name": "Praveen Kumar Gupta",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": null
+  },
+  {
     "name": "Dr. Dhruv Galgotia",
     "position": "CEO",
     "organization": "CEO, Galgotias University, Greater Noida, India",
@@ -288,15 +300,8 @@ export const cards = [
     "imgSrc": "/ImportantPersons/DINESH KUMAR.jpeg"
   },
   {
-    "name": "Mr. Gaurang Pant",
-    "position": "Chair CS GU",
-    "organization": "Chair CS GU, Galgotias University, India",
-    "imgSrc": "/ImportantPersons/gaurang.jpg"
-  },
-  {
     "name": "Mr. Manas Saxena",
-    "position": "Tech Lead GU",
-    "organization": "Tech Lead GU, Galgotias University, India",
+    "organization": "Galgotias University, India",
     "imgSrc": "/ImportantPersons/manas.jpeg"
   },
   {
